@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>よくあるご質問 (FAQ) - [アプリ名]</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            line-height: 1.8;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        h1 {
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 40px;
+            color: #111;
+        }
+        .faq-list {
+            border-top: 1px solid #eee;
+        }
+        .faq-item {
+            padding: 25px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .faq-question {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #007bff;
+            display: flex;
+            align-items: flex-start;
+        }
+        .faq-question::before {
+            content: "Q.";
+            margin-right: 0.8em;
+            font-size: 1.2em;
+            color: #007bff;
+        }
+        .faq-answer {
+            margin-top: 10px;
+            padding-left: 3.2em; /* 'Q. 'の幅と合わせる */
+            display: flex;
+            align-items: flex-start;
+        }
+        .faq-answer::before {
+            content: "A.";
+            margin-right: 0.8em;
+            font-weight: bold;
+            color: #e8590c;
+        }
+        .contact-link {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f0f8ff;
+            border-radius: 5px;
+        }
+        .contact-link a {
+            color: #0056b3;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>よくあるご質問 (FAQ) - [アプリ名]</h1>
+
+        <div class="faq-list">
+            <div class="faq-item">
+                <div class="faq-question">このアプリは何をするものですか？</div>
+                <div class="faq-answer">
+                    <div>本アプリは、あなたとの対話を通じて性格が変化していく、世界に一つだけのAIパートナーを"創造"するコミュニケーション体験です。選ぶのではなく、育てる楽しみを体験してください。</div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">「調整」とは何ですか？</div>
+                <div class="faq-answer">
+                    <div>「調整」は、パートナーとの関係性をより良い方向へ導くための機能です。会話がすれ違っていると感じた時に、あなたの要望を伝えることで、パートナーは少しだけ性格を変化させ、進化します。</div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">無料プランとプレミアムプランの違いは何ですか？</div>
+                <div class="faq-answer">
+                    <div>無料プランでは、1人のパートナーとの基本的な対話と、回数制限付きの「調整」がお楽しみいただけます。プレミアムプランにご加入いただくと、チャットや調整の回数制限が大幅に緩和され、複数のパートナーを同時に育てるなど、より深く、自由な体験が可能になります。</div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">お別れしたパートナーと、もう一度やり直せますか？</div>
+                <div class="faq-answer">
+                    <div>はい、可能です。設定画面の「ヘルプとサポート」から「過去にお別れしたパートナー」をご確認ください。なお、思い出の復元には特別な手続き（有料）が必要となります。</div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">不具合を見つけました／改善してほしい点があります。</div>
+                <div class="faq-answer">
+                    <div>ありがとうございます。設定画面の「改善・要望を送信」から、ぜひあなたの声をお聞かせください。いただいたフィードバックは、今後の開発の参考にさせていただきます。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-link">
+            さらに質問がある場合はアプリの要望・改善にてお願いします。
+        </div>
+
+    </div>
+
+</body>
+</html>
